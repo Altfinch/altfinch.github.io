@@ -2,6 +2,7 @@
 layout: default
 title: Create applicant
 parent: API documentation for LSP
-nav_order: 1
+nav_order: 2
 ---
-### Create applicant [![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+
+### Create applicant
