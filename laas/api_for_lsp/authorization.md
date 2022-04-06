@@ -28,9 +28,7 @@ GET
 
 ### Parameters
 
-| Name         | Possible values   		   | Required | Description                        |
-|:-------------|:--------------------------|:---------|:-----------------------------------|
-| `oreos`      | oreos 			   		   | oreos    | oreos                              |
+NA
 
 ### Response
 
@@ -53,12 +51,16 @@ GET
 
 ```json
 {
-    "message": "OK",
-    "data": {
-        "auth_token": "627f9bed55e04dea6a5b1b9ac7bfe951",
-        "expiry_in_seconds": 60000
-    },
-    "errors": null
+    "message": "Bad Request",
+    "data": null,
+    "errors": {
+        "x-client-name": [
+            "Not found"
+        ],
+        "x-client-secret": [
+            "Not found"
+        ]
+    }
 }
 ```
 
