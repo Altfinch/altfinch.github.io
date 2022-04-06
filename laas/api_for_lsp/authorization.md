@@ -28,7 +28,9 @@ GET
 
 ### Parameters
 
-NA
+| Name         | Possible values   		   | Required | Description                        |
+|:-------------|:--------------------------|:---------|:-----------------------------------|
+| `oreos`      | oreos 			   		   | oreos    | oreos                              |
 
 ### Response
 
