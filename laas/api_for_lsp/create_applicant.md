@@ -2,7 +2,8 @@
 layout: default
 title: Create applicant
 parent: API documentation for LSP
-nav_order: 2
+grand_parent: Lending as a Service
+nav_order: 1
 ---
 
 ### Create applicant
