@@ -75,10 +75,27 @@ POST
     "message": "Bad Request",
     "data": null,
     "errors": {
+        "first_name": [
+            "Only allows alphabets",
+            "can't be blank"
+        ],
+        "last_name": [
+            "Only allows alphabets",
+            "can't be blank"
+        ],
+        "mobile": [
+            "is not a number",
+            "can't be blank",
+            "is the wrong length (should be 10 characters)"
+        ],
         "aadhaar_number": [
             "is not a number",
             "can't be blank",
             "is the wrong length (should be 12 characters)"
+        ],
+        "pan_number": [
+            "Invalid PAN number",
+            "can't be blank"
         ],
         "date_of_birth": [
             "Date needs to be in YYYY-MM-DD",
@@ -94,6 +111,12 @@ POST
         "addr_fld_2": [
             "can't be blank",
             "is too short (minimum is 2 characters)"
+        ],
+        "pincode": [
+            "can't be blank",
+            "is not a number",
+            "is the wrong length (should be 6 characters)",
+            "Invalid pincode"
         ]
     }
 }
