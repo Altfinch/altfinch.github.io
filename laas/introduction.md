@@ -1,4 +1,4 @@
-## Lending as a Service
+## Introduction
 
 We are providing a lending as a service solution to both Fintechs and NBFCs. You can connect your systems to our platform through a plethora of APIs or can directly use our platform for managing your lending portfolio.
 
