@@ -12,10 +12,7 @@ nav_order: 1
 Retrieve authentication token
 
 ### Request
-GET
-{: .label .label-green }
-
-/api/v1/auth-token
+GET {: .label .label-green } `/api/v1/auth-token`
 
 ### Parameters
 
