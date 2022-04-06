@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create applicant
+title: Create applicant {: .label }
 parent: API documentation for LSP
 grand_parent: Lending as a Service
 nav_order: 1
